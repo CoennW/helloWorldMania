@@ -9,7 +9,7 @@
 
                     // Public porperties 
                     my.name = function(value) {
-                        if(typeof value !== "undifined") {
+                        if(typeof value !== "undefined") {
                             name = value;
                         } else {
                             return name;
@@ -17,7 +17,7 @@
                     };
                     
                     my.age = function(value) {
-                        if(typeof value !== "undifined") {
+                        if(typeof value !== "undefined") {
                             age = value;
                         } else {
                             return age;
